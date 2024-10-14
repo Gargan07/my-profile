@@ -1,0 +1,24 @@
+.submission-success {
+    height: 100vh;
+    text-align: center;
+    color: white;
+    padding-top: 7ch;
+    padding-left: 15ch;
+    padding-right: 15ch;
+    padding-bottom: 7ch;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .submission-success {
+        padding-left: 5ch;
+        padding-right: 5ch;
+    }
+}
+
+@media (max-width: 480px) {
+    .submission-success {
+        padding-top: 3ch;
+        padding-bottom: 3ch;
+    }
+}

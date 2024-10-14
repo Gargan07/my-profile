@@ -1,0 +1,23 @@
+.nav-link-color {
+  color: hsl(271, 93%, 54%);
+}
+
+.bg-color {
+  background-color: rgba(0, 132, 255, 0.1);
+}
+
+@media (max-width: 768px) {
+  .nav-link-color {
+      font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-link-color {
+      font-size: 1rem;
+  }
+
+  .bg-color {
+      background-color: rgba(0, 132, 255, 0.2);
+  }
+}

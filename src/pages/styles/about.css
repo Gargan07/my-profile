@@ -1,0 +1,51 @@
+.about-container {
+    height: 100vh;
+    text-align: center;
+    color: white;
+    padding-top: 7ch;
+    padding-left: 15ch;
+    padding-right: 15ch;
+    padding-bottom: 7ch;
+    margin: 0;
+}
+
+.about-header {
+    padding-bottom: 25px;
+    font-size: 50px;
+}
+
+.about-header span {
+    color: white;
+    transition: color 0.4s ease;
+}
+
+.about-header span:hover {
+    color: hsl(271, 93%, 54%);
+    cursor: default;
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        padding-left: 5ch;
+        padding-right: 5ch;
+    }
+
+    .about-header {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-container {
+        padding-top: 3ch;
+        padding-left: 2ch;
+        padding-right: 2ch;
+        padding-bottom: 3ch;
+    }
+
+    .about-header {
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+}

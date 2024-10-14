@@ -1,0 +1,51 @@
+.contact-container {
+    height: 100vh;
+    text-align: center;
+    color: white;
+    padding-top: 7ch;
+    padding-left: 15ch;
+    padding-right: 15ch;
+    padding-bottom: 7ch;
+    margin: 0;
+}
+
+.contact-header {
+    padding-bottom: 25px;
+    font-size: 50px;
+}
+
+.contact-header span {
+    color: white;
+    transition: color 0.4s ease;
+}
+
+.contact-header span:hover {
+    color: hsl(271, 93%, 54%);
+    cursor: default;
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        padding-left: 5ch;
+        padding-right: 5ch;
+    }
+
+    .contact-header {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-container {
+        padding-top: 3ch;
+        padding-left: 2ch;
+        padding-right: 2ch;
+        padding-bottom: 3ch;
+    }
+
+    .contact-header {
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+}
